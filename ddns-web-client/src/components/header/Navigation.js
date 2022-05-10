@@ -37,7 +37,7 @@ export default function NavigationBar(props) {
    return (
       <Navbar color="light" expand="md" light>
          <NavbarBrand>
-            CSU Decentalized Domain Registrar
+            Artist Decentralized Domain Registrar
          </NavbarBrand >
          {ShowMenuButton(navbarOpen, setNavbarOpen)}
          <Collapse isOpen={navbarOpen} navbar>
